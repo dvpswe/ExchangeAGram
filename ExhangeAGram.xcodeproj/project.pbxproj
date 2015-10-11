@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7D64F41BCAA3E300F86C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64F31BCAA3E300F86C80 /* AppDelegate.swift */; };
+		FD7D64F61BCAA3E300F86C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64F51BCAA3E300F86C80 /* ViewController.swift */; };
+		FD7D64F91BCAA3E300F86C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7D64F71BCAA3E300F86C80 /* Main.storyboard */; };
+		FD7D64FC1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD7D64FA1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodeld */; };
+		FD7D64FE1BCAA3E300F86C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7D64FD1BCAA3E300F86C80 /* Assets.xcassets */; };
+		FD7D65011BCAA3E300F86C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7D64FF1BCAA3E300F86C80 /* LaunchScreen.storyboard */; };
+		FD7D650C1BCAA3E300F86C80 /* ExhangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D650B1BCAA3E300F86C80 /* ExhangeAGramTests.swift */; };
+		FD7D65171BCAA3E300F86C80 /* ExhangeAGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D65161BCAA3E300F86C80 /* ExhangeAGramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7D65081BCAA3E300F86C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7D64E81BCAA3E300F86C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7D64EF1BCAA3E300F86C80;
+			remoteInfo = ExhangeAGram;
+		};
+		FD7D65131BCAA3E300F86C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7D64E81BCAA3E300F86C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7D64EF1BCAA3E300F86C80;
+			remoteInfo = ExhangeAGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7D64F01BCAA3E300F86C80 /* ExhangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExhangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7D64F31BCAA3E300F86C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD7D64F51BCAA3E300F86C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD7D64F81BCAA3E300F86C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7D64FB1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExhangeAGram.xcdatamodel; sourceTree = "<group>"; };
+		FD7D64FD1BCAA3E300F86C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7D65001BCAA3E300F86C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD7D65021BCAA3E300F86C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7D65071BCAA3E300F86C80 /* ExhangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExhangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7D650B1BCAA3E300F86C80 /* ExhangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhangeAGramTests.swift; sourceTree = "<group>"; };
+		FD7D650D1BCAA3E300F86C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7D65121BCAA3E300F86C80 /* ExhangeAGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExhangeAGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7D65161BCAA3E300F86C80 /* ExhangeAGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhangeAGramUITests.swift; sourceTree = "<group>"; };
+		FD7D65181BCAA3E300F86C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7D64ED1BCAA3E300F86C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7D65041BCAA3E300F86C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7D650F1BCAA3E300F86C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7D64E71BCAA3E300F86C80 = {
+			isa = PBXGroup;
+			children = (
+				FD7D64F21BCAA3E300F86C80 /* ExhangeAGram */,
+				FD7D650A1BCAA3E300F86C80 /* ExhangeAGramTests */,
+				FD7D65151BCAA3E300F86C80 /* ExhangeAGramUITests */,
+				FD7D64F11BCAA3E300F86C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7D64F11BCAA3E300F86C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7D64F01BCAA3E300F86C80 /* ExhangeAGram.app */,
+				FD7D65071BCAA3E300F86C80 /* ExhangeAGramTests.xctest */,
+				FD7D65121BCAA3E300F86C80 /* ExhangeAGramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7D64F21BCAA3E300F86C80 /* ExhangeAGram */ = {
+			isa = PBXGroup;
+			children = (
+				FD7D64F31BCAA3E300F86C80 /* AppDelegate.swift */,
+				FD7D64F51BCAA3E300F86C80 /* ViewController.swift */,
+				FD7D64F71BCAA3E300F86C80 /* Main.storyboard */,
+				FD7D64FD1BCAA3E300F86C80 /* Assets.xcassets */,
+				FD7D64FF1BCAA3E300F86C80 /* LaunchScreen.storyboard */,
+				FD7D65021BCAA3E300F86C80 /* Info.plist */,
+				FD7D64FA1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodeld */,
+			);
+			path = ExhangeAGram;
+			sourceTree = "<group>";
+		};
+		FD7D650A1BCAA3E300F86C80 /* ExhangeAGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7D650B1BCAA3E300F86C80 /* ExhangeAGramTests.swift */,
+				FD7D650D1BCAA3E300F86C80 /* Info.plist */,
+			);
+			path = ExhangeAGramTests;
+			sourceTree = "<group>";
+		};
+		FD7D65151BCAA3E300F86C80 /* ExhangeAGramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7D65161BCAA3E300F86C80 /* ExhangeAGramUITests.swift */,
+				FD7D65181BCAA3E300F86C80 /* Info.plist */,
+			);
+			path = ExhangeAGramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7D64EF1BCAA3E300F86C80 /* ExhangeAGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7D651B1BCAA3E300F86C80 /* Build configuration list for PBXNativeTarget "ExhangeAGram" */;
+			buildPhases = (
+				FD7D64EC1BCAA3E300F86C80 /* Sources */,
+				FD7D64ED1BCAA3E300F86C80 /* Frameworks */,
+				FD7D64EE1BCAA3E300F86C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExhangeAGram;
+			productName = ExhangeAGram;
+			productReference = FD7D64F01BCAA3E300F86C80 /* ExhangeAGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7D65061BCAA3E300F86C80 /* ExhangeAGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7D651E1BCAA3E300F86C80 /* Build configuration list for PBXNativeTarget "ExhangeAGramTests" */;
+			buildPhases = (
+				FD7D65031BCAA3E300F86C80 /* Sources */,
+				FD7D65041BCAA3E300F86C80 /* Frameworks */,
+				FD7D65051BCAA3E300F86C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7D65091BCAA3E300F86C80 /* PBXTargetDependency */,
+			);
+			name = ExhangeAGramTests;
+			productName = ExhangeAGramTests;
+			productReference = FD7D65071BCAA3E300F86C80 /* ExhangeAGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD7D65111BCAA3E300F86C80 /* ExhangeAGramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7D65211BCAA3E300F86C80 /* Build configuration list for PBXNativeTarget "ExhangeAGramUITests" */;
+			buildPhases = (
+				FD7D650E1BCAA3E300F86C80 /* Sources */,
+				FD7D650F1BCAA3E300F86C80 /* Frameworks */,
+				FD7D65101BCAA3E300F86C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7D65141BCAA3E300F86C80 /* PBXTargetDependency */,
+			);
+			name = ExhangeAGramUITests;
+			productName = ExhangeAGramUITests;
+			productReference = FD7D65121BCAA3E300F86C80 /* ExhangeAGramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7D64E81BCAA3E300F86C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Phoenix Media Services, LLC";
+				TargetAttributes = {
+					FD7D64EF1BCAA3E300F86C80 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FD7D65061BCAA3E300F86C80 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FD7D64EF1BCAA3E300F86C80;
+					};
+					FD7D65111BCAA3E300F86C80 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FD7D64EF1BCAA3E300F86C80;
+					};
+				};
+			};
+			buildConfigurationList = FD7D64EB1BCAA3E300F86C80 /* Build configuration list for PBXProject "ExhangeAGram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7D64E71BCAA3E300F86C80;
+			productRefGroup = FD7D64F11BCAA3E300F86C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7D64EF1BCAA3E300F86C80 /* ExhangeAGram */,
+				FD7D65061BCAA3E300F86C80 /* ExhangeAGramTests */,
+				FD7D65111BCAA3E300F86C80 /* ExhangeAGramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7D64EE1BCAA3E300F86C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7D65011BCAA3E300F86C80 /* LaunchScreen.storyboard in Resources */,
+				FD7D64FE1BCAA3E300F86C80 /* Assets.xcassets in Resources */,
+				FD7D64F91BCAA3E300F86C80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7D65051BCAA3E300F86C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7D65101BCAA3E300F86C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7D64EC1BCAA3E300F86C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7D64F61BCAA3E300F86C80 /* ViewController.swift in Sources */,
+				FD7D64F41BCAA3E300F86C80 /* AppDelegate.swift in Sources */,
+				FD7D64FC1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7D65031BCAA3E300F86C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7D650C1BCAA3E300F86C80 /* ExhangeAGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7D650E1BCAA3E300F86C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7D65171BCAA3E300F86C80 /* ExhangeAGramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7D65091BCAA3E300F86C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7D64EF1BCAA3E300F86C80 /* ExhangeAGram */;
+			targetProxy = FD7D65081BCAA3E300F86C80 /* PBXContainerItemProxy */;
+		};
+		FD7D65141BCAA3E300F86C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7D64EF1BCAA3E300F86C80 /* ExhangeAGram */;
+			targetProxy = FD7D65131BCAA3E300F86C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD7D64F71BCAA3E300F86C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7D64F81BCAA3E300F86C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7D64FF1BCAA3E300F86C80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7D65001BCAA3E300F86C80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7D65191BCAA3E300F86C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7D651A1BCAA3E300F86C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7D651C1BCAA3E300F86C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExhangeAGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenixmediaservices.ExhangeAGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD7D651D1BCAA3E300F86C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExhangeAGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenixmediaservices.ExhangeAGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD7D651F1BCAA3E300F86C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExhangeAGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenixmediaservices.ExhangeAGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExhangeAGram.app/ExhangeAGram";
+			};
+			name = Debug;
+		};
+		FD7D65201BCAA3E300F86C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExhangeAGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenixmediaservices.ExhangeAGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExhangeAGram.app/ExhangeAGram";
+			};
+			name = Release;
+		};
+		FD7D65221BCAA3E300F86C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExhangeAGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenixmediaservices.ExhangeAGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExhangeAGram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD7D65231BCAA3E300F86C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExhangeAGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phoenixmediaservices.ExhangeAGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExhangeAGram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7D64EB1BCAA3E300F86C80 /* Build configuration list for PBXProject "ExhangeAGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7D65191BCAA3E300F86C80 /* Debug */,
+				FD7D651A1BCAA3E300F86C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7D651B1BCAA3E300F86C80 /* Build configuration list for PBXNativeTarget "ExhangeAGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7D651C1BCAA3E300F86C80 /* Debug */,
+				FD7D651D1BCAA3E300F86C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD7D651E1BCAA3E300F86C80 /* Build configuration list for PBXNativeTarget "ExhangeAGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7D651F1BCAA3E300F86C80 /* Debug */,
+				FD7D65201BCAA3E300F86C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD7D65211BCAA3E300F86C80 /* Build configuration list for PBXNativeTarget "ExhangeAGramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7D65221BCAA3E300F86C80 /* Debug */,
+				FD7D65231BCAA3E300F86C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD7D64FA1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD7D64FB1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodel */,
+			);
+			currentVersion = FD7D64FB1BCAA3E300F86C80 /* ExhangeAGram.xcdatamodel */;
+			path = ExhangeAGram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD7D64E81BCAA3E300F86C80 /* Project object */;
+}
