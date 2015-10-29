@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD7D64EF1BCAA3E300F86C80"
-               BuildableName = "ExhangeAGram.app"
-               BlueprintName = "ExhangeAGram"
-               ReferencedContainer = "container:ExhangeAGram.xcodeproj">
+               BuildableName = "ExchangeAGram.app"
+               BlueprintName = "ExchangeAGram"
+               ReferencedContainer = "container:ExchangeAGram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD7D65061BCAA3E300F86C80"
-               BuildableName = "ExhangeAGramTests.xctest"
-               BlueprintName = "ExhangeAGramTests"
-               ReferencedContainer = "container:ExhangeAGram.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD7D65111BCAA3E300F86C80"
-               BuildableName = "ExhangeAGramUITests.xctest"
-               BlueprintName = "ExhangeAGramUITests"
-               ReferencedContainer = "container:ExhangeAGram.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD7D64EF1BCAA3E300F86C80"
-            BuildableName = "ExhangeAGram.app"
-            BlueprintName = "ExhangeAGram"
-            ReferencedContainer = "container:ExhangeAGram.xcodeproj">
+            BuildableName = "ExchangeAGram.app"
+            BlueprintName = "ExchangeAGram"
+            ReferencedContainer = "container:ExchangeAGram.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD7D64EF1BCAA3E300F86C80"
-            BuildableName = "ExhangeAGram.app"
-            BlueprintName = "ExhangeAGram"
-            ReferencedContainer = "container:ExhangeAGram.xcodeproj">
+            BuildableName = "ExchangeAGram.app"
+            BlueprintName = "ExchangeAGram"
+            ReferencedContainer = "container:ExchangeAGram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD7D64EF1BCAA3E300F86C80"
-            BuildableName = "ExhangeAGram.app"
-            BlueprintName = "ExhangeAGram"
-            ReferencedContainer = "container:ExhangeAGram.xcodeproj">
+            BuildableName = "ExchangeAGram.app"
+            BlueprintName = "ExchangeAGram"
+            ReferencedContainer = "container:ExchangeAGram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
