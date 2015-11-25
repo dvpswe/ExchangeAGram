@@ -9,20 +9,32 @@
 import UIKit
 import MobileCoreServices
 import CoreData
+import MapKit
 
-class FeedViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+class FeedViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    
-    
-    
     var feedArray: [AnyObject] = []
+    var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view
+        
+        let backgroundImage = UIImage(named: "AutumnBackground")
+        self.view.backgroundColor = UIColor(patternImage: backgroundImage!)
+        
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        
+        locationManager.requestAlwaysAuthorization()
+        
+        locationManager.distanceFilter = 100.0
+        locationManager.startUpdatingLocation()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -90,7 +102,23 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
         
         feedItem.image = imageData
         feedItem.caption = "Test Caption"
-        feedItem.thumbNail = thumbNailData  
+        feedItem.thumbNail = thumbNailData
+        
+ 
+        if let _ = locationManager.location {
+            feedItem.latitude = locationManager.location?.coordinate.latitude
+            feedItem.longitude = locationManager.location?.coordinate.longitude
+        }
+        else {
+            print("No location available")
+        }
+//        feedItem.latitude = locationManager.location?.coordinate.latitude
+//        feedItem.longitude = locationManager.location?.coordinate.longitude
+        
+        let uuid = NSUUID().UUIDString
+        feedItem.uniqueID = uuid
+        
+        feedItem.filtered = false
         
         (UIApplication.sharedApplication().delegate as! AppDelegate).saveContext()
         
@@ -116,7 +144,15 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
         let cell:FeedCell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! FeedCell
         let thisItem = feedArray[indexPath.row] as! FeedItem
         
-        cell.imageView.image = UIImage(data: thisItem.image!)
+        if thisItem.filtered == true {
+            let returnedImage = UIImage(data: thisItem.image!)
+            _ = UIImage(CGImage: returnedImage!.CGImage!, scale: 1.0, orientation: UIImageOrientation.Right)
+        }
+        else {
+            cell.imageView.image = UIImage(data: thisItem.image!)
+        }
+        
+        
         cell.captionLabel.text = thisItem.caption
         
         return cell
@@ -131,5 +167,14 @@ class FeedViewController: UIViewController, UICollectionViewDataSource, UICollec
         filterVC.thisFeedItem = thisItem
         self.navigationController?.pushViewController(filterVC, animated: false)
     }
+    
+    //CCLocationManagerDelegate
+    
+    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print("locations = \(locations)")
+    }
+    
+    
+    
     
 }
